@@ -1,0 +1,52 @@
+/* en el codigo de css se utilsa flexbox para alinear las cajas de contenido */
+.header{
+    font-size: 1.8em;
+    background-image: url(../imgs/desayuno.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 4em;
+    margin-bottom: 1em;
+}
+.header p{
+    text-align: left;
+    margin: 0em;
+}
+.header h1{
+    text-align: left;
+    margin: 0em;
+}
+.imgs{
+    width: 25%;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+/*a los servicios se le agrega una imagen de fondo con opacidad para que esta resalte el contenido visual del bloque*/
+.servicios{
+    display: flex;
+    justify-content: center;
+    margin: 20%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #76d395a8;
+    border-radius: 8px;
+    font-size: 1em;
+}
+/* se utiliza una imagen de fono para darle un diseño al background */
+body{
+    background-image: url(../imgs/bosque.jpg);
+    background-position: center;
+    background-color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+}
+.footer{
+    background-color: rgba(119, 187, 17, 0.555);
+    text-align: center;
+    font-weight: 900;
+    font-size: 1em;
+    margin-top: 1em;
+}
