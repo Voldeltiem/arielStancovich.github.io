@@ -1,0 +1,62 @@
+.colores {
+  color: #616163;
+  color: #00e0ac;
+  color: #ffffff;
+  color: #daf5ff;
+}
+body {
+  background-color: #616163;
+}
+#menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  display: flex;
+  flex-direction: row;
+}
+
+#menu a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: #00e0ac;
+  margin-right: 2px;
+  transform: rotate(45deg);
+}
+#proyectosStyle:hover {
+  padding-right: 2em;
+  text-align: left;
+  border-radius: 3px;
+  border-style: double;
+  border-top: 2px double #00e0ac;
+  border-right: 2px double transparent;
+  border-bottom: 2px double #00e0ac;
+  border-left: 2px double #00e0ac;
+  text-shadow: 0 0 10px rgb(0, 224, 172);
+  box-shadow: -4.5px 0px 5px rgba(0, 224, 172, 0.5);
+}
+#aboutStyle:hover {
+  padding-left: 2em;
+  text-align: right;
+  border-radius: 3px;
+  border-style: double;
+  border-top: 2px double #00e0ac;
+  border-right: 2px double #00e0ac;
+  border-bottom: 2px double #00e0ac;
+  border-left: 2px double transparent;
+  text-shadow: 0 0 10px #00e0ac;
+  box-shadow: 4.5px 0px 5px rgba(0, 224, 172, 0.5);
+}
+#ContacStyle:hover {
+  padding-left: 2em;
+  text-align: right;
+  border-radius: 3px;
+  border-style: double;
+  border-top: 2px double #00e0ac;
+  border-right: 2px double #00e0ac;
+  border-bottom: 2px double #00e0ac;
+  border-left: 2px double transparent;
+  text-shadow: 0 0 10px #00e0ac;
+  box-shadow: 4.5px 0px 5px rgba(0, 224, 172, 0.5);
+}
